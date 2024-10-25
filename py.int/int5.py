@@ -1,0 +1,5 @@
+print("Integer5")
+a = int(input("A musbat sonni kiritng = "))
+b = int(input("B musbat sonni kiriting = "))
+print("A kesmada B nechchi martta joylashishi mumkun = " + str(int(a/b)))
+print("A kesmada B nechchi martta joylashmagan qismi aniqlansin = " + str(a%b))

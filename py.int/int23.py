@@ -1,0 +1,5 @@
+print("Integer23")
+n = int(input("Kun boshidan boshlab N sekund vaqt o'tti = "))
+print("Kun boshidan boshlab necha soat vaqt o'tgan = " + str(int(n/3600)))
+print("Kun boshidan boshlab necha minut vaqt o'tganligi = " + str(int(n%3600/60)))
+print("Kun boshidan boshlab necha sekund vaqt o'tgan = " + str(int(n%60)))

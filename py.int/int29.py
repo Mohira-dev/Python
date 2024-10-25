@@ -1,0 +1,7 @@
+print("Integer29")
+a = int(input("A ni kiriting = "))
+b = int(input("B ni kiriting = "))
+c = int(input("C ni kiriting = ")) 
+joylashgan_qismi = (a//c) * (b//c)
+print("TO'g'ri to'rtburchakdagi joylashgan qismi = ", joylashgan_qismi)
+print("Joylashmagan qismi = ", a*b - c*c*joylashgan_qismi)
