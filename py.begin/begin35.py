@@ -1,0 +1,7 @@
+print("Begin35")
+v = int(input("Qayiqning tezligini kiriting V km/soat = "))
+u = int(input("Oqimning tezligini kiriting U km/soat = "))
+t1 = int(input("Qayiqning daryo bo'yicha harakatlanish vaqti T1 = "))
+t2 = int(input("Qayiqning daryoga qarshi harakatlanish vaqti T2 = "))
+print("Qayiqning oqim bilan yurgan yo'lini aniqlovchi programma tuzilsin S1= " , t1*(v+u))
+print("Qayiqning oqimga qarshi yurgan yo'lini aniqlovchi programma tuzilsin S2 = " , t2*((v-u)))

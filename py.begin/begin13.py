@@ -1,0 +1,6 @@
+print("Begin13")
+r1 = int(input("Birinchi aylananing radiusini kiriting r1 = "))
+r2 = int(input("Ikkinchi aylananing radiusini kiriting r2 = "))
+print("Birinchi aylananing yuzi anqilansin S1 = " + str(int(3.14*r1)))
+print("Ikkinchi aylananing yuzi aniqlansin S2 = " + str(int(3.14*r2)))
+print("Shu ikki aylananing yuzasi aniqlansin S3 = " + str(3,14*(r1-r2)))

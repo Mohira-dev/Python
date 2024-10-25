@@ -1,0 +1,7 @@
+print("Begin33")
+x = int(input("Qancha kg konfet olishingizni kiritng = "))
+a = int(input("Olgan shu kg li konfetingiz qancha turishini kiriting = "))
+bir_kg = int(a/x)
+print("1 kg konfet qancha turishi aniqlansin = " , bir_kg)
+y = int(input("Yana bir boshqa konfetning qancha kg ekanligini kiriting = "))
+print("Ana endi shu konfet qancha turishi aniqlansin = " , bir_kg*y)

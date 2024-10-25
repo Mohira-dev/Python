@@ -1,0 +1,7 @@
+print("Begin36")
+t = int(input("Vaqt T ni kiritng = "))
+v1 = int(input("Birinchi avtomobilning tezligi V1 ni kiriting = "))
+v2 = int(input("Ikkinchi avtomobilning tezligi V2 ni kiriting = "))
+s = int(input("ular orasidagi masofani kiriting = "))
+print("Ular bir-biriga teskari holda ketishmoqda")
+print("Ular orasidagi masofa aniqlansin S = " , s+(v1+v2)*t)

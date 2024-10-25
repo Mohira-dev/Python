@@ -1,0 +1,10 @@
+print("Begin19")
+import math
+xa = int(input("Xa nuqtani kiriting "))
+xc = int(input("Xc nuqtani kiriting "))
+ya = int(input("Ya nuqtani kiriting "))
+yc = int(input("Yc nuqtani kiriting "))
+ba = abs(xc-ya)
+bc = abs(xa-yc)
+print("Perimetri  = " + str(2*(ba+bc)))
+print('Yuzasi = ' , ba*bc)
