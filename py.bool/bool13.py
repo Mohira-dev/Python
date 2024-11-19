@@ -1,0 +1,5 @@
+print("Boolean 13")
+a = int(input("A sonini kiriting = "))
+b = int(input("B sonini kiriting = "))
+c = int(input("C osnini kiriting = "))
+print("Hech bo'lmaganda bittasi musbat = ", a>0 or b>0 or c>0)

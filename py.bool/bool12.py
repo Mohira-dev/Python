@@ -1,0 +1,5 @@
+print("Boolean 12")
+a = int(input("A sonini kiriting = "))
+b = int(input("B sonini kiriting = "))
+c = int(input("C sonini kiriting = "))
+print("Shu sonlarning har biri musbat = ", a>0 and b>0 and c>0)

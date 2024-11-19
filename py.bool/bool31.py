@@ -1,0 +1,6 @@
+print("Boolean 31")
+a = int(input("A sonini kiriting = "))
+b = int(input("B sonini kiriting = "))
+c = int(input("C sonini kiriitng = "))
+print("A, B, C uchburchak burchaklari")
+print("Uchburchak teng yonli = ", a==b or b==c or a==c)

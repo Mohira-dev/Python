@@ -1,0 +1,8 @@
+print("Boolean 29")
+x = int(input("X koordinatani kiriting = "))
+y = int(input("Y koordinatani kiriting = "))
+x1 = int(input("X1 koordinatani kiriting = "))
+y1 = int(input("Y1 koordinatani kiriting = "))
+x2 = int(input("X2 koordinatani kiriting = "))
+y2 = int(input("Y2 koordinatani kiriting = "))
+print("Natijasi = ", (x1<x and x<x2) and (y1<y and y<y2))
